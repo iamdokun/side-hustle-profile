@@ -1,0 +1,68 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background: hsl(185, 75%, 39%);
+    font-family: Kumbh Sans;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+}
+
+span{
+    font-weight: 100;
+}
+
+li{
+    margin: 13px;
+}
+
+.box{
+    margin-top: 60px;
+}
+.pattern {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 6px 6px 0px 0px ;
+}
+.victor{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 60%;
+    position: relative;
+    bottom: 10vh;
+}
+
+.london{
+    margin: 0 auto;
+    text-align: center;
+    background: white;
+    width: 22%;
+    height: 100%;
+    padding: 20px;
+    border-radius: 0px 0px 6px 6px ;
+}
+
+.victor-2{
+    text-align: center;
+}
+
+.crest{
+    margin-bottom: 0%;
+    position: relative;
+    bottom: 60px;
+}
+
+@media(max-width: 768px){
+    .pattern {
+       width: 91%;
+    }
+
+    .london{
+        width: 80%; 
+    }
+}
